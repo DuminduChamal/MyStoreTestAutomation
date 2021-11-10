@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="40.393986">
+    <testcase classname="My Store Add Two Items" name="My Store Add Two Items" time="40.393986">
+        <system-out>
+            <![CDATA[Given user is already on Landing Page.......................................passed
+When title of landing page is My Store......................................passed
+Then user clicks on sign in button..........................................passed
+When title of login page is My Store Login..................................passed
+Then user enters "is4102@ucsctest.com" and "test@123".......................passed
+Then user clicks on login button............................................passed
+Then user is on home page...................................................passed
+Then user clicks on WOMEN button............................................passed
+When title of women page is Women My Store..................................passed
+Then user clicks on faded tshirt button.....................................passed
+Then user clicks on add to cart.............................................passed
+Then user clicks on continue shopping.......................................passed
+Then user clicks on printed dress...........................................passed
+Then user clicks on more button.............................................passed
+When title of printed dress page is Printed Chiffon Dress My Store..........passed
+Then user clicks on add to cart button......................................passed
+Then user clicks on proceed to checkout button..............................passed
+When title of order page is Order My Store..................................passed
+Then user clicks on proceed to checkout button on order page................passed
+When title of address page is Order My Store................................passed
+Then user clicks on proceed to checkout button on address page..............passed
+When title of shipping page is Order My Store...............................passed
+Then user clicks on check box...............................................passed
+Then user clicks on proceed to checkout button on shipping page.............passed
+When title of payment page is Order My Store................................passed
+Then user clicks on pay by check button.....................................passed
+When title of order summary page is My Store................................passed
+Then user clicks on confirm button..........................................passed
+When title of order confirmation page is Order confirmation My Store........passed
+Then user clicks on back button.............................................passed
+When title of order history page is Order history My Store..................passed
+Then user clicks on pdf button..............................................passed
+Then Close the browser......................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

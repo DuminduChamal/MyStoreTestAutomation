@@ -1,0 +1,1482 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Command_line_suite" class="navigator-link">
+              <span class="suite-name border-failed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Command_line_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Command_line_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Command_line_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Command_line_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Command_line_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Command_line_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Command_line_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">39 methods, 1 failed,   38 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Command_line_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.OrderHistoryPageTest" class="method navigator-link" hash-for-method="DownLoadInvoiceTest">DownLoadInvoiceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.PrintedDressPageTest" class="method navigator-link" hash-for-method="AddItemAndProceedToCheckoutTest">AddItemAndProceedToCheckoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.AddressPageTest" class="method navigator-link" hash-for-method="AddressPageTitleTest">AddressPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.AddressPageTest" class="method navigator-link" hash-for-method="AddressPageValidateTest">AddressPageValidateTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.ConfirmationPageTest" class="method navigator-link" hash-for-method="BackToOrderHistoryTest">BackToOrderHistoryTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.OrderSummaryPageTest" class="method navigator-link" hash-for-method="CheckOrderSummaryPageValidateTest">CheckOrderSummaryPageValidateTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.OrderHistoryPageTest" class="method navigator-link" hash-for-method="CheckTheDateOfOrderTest">CheckTheDateOfOrderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.ConfirmationPageTest" class="method navigator-link" hash-for-method="ConfirmationPageTitleTest">ConfirmationPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.ConfirmationPageTest" class="method navigator-link" hash-for-method="ConfirmationPageValidateTest">ConfirmationPageValidateTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.ShoppingCartSummaryPageTest" class="method navigator-link" hash-for-method="ExactTwoProductsTest">ExactTwoProductsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="HomePageTitleTest">HomePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="HomePageUserNameTest">HomePageUserNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.OrderHistoryPageTest" class="method navigator-link" hash-for-method="OrderHistoryPageTitleTest">OrderHistoryPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.OrderHistoryPageTest" class="method navigator-link" hash-for-method="OrderHistoryPageValidateTest">OrderHistoryPageValidateTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.OrderSummaryPageTest" class="method navigator-link" hash-for-method="OrderProceedToCheckoutTest">OrderProceedToCheckoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.OrderSummaryPageTest" class="method navigator-link" hash-for-method="OrderSummaryPageTitleTest">OrderSummaryPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.OrderSummaryPageTest" class="method navigator-link" hash-for-method="OrderSummaryPageValidateTest">OrderSummaryPageValidateTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.PaymentPageTest" class="method navigator-link" hash-for-method="PaymentPageTitleTest">PaymentPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.PaymentPageTest" class="method navigator-link" hash-for-method="PaymentPageValidateTest">PaymentPageValidateTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.PrintedDressPageTest" class="method navigator-link" hash-for-method="PrinteDressPageTitleTest">PrinteDressPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.ShoppingCartSummaryPageTest" class="method navigator-link" hash-for-method="PrinteDressPageTitleTest">PrinteDressPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.ShoppingCartSummaryPageTest" class="method navigator-link" hash-for-method="PrintedDressPageValidateTest">PrintedDressPageValidateTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.PrintedDressPageTest" class="method navigator-link" hash-for-method="PrintedDressPageValidateTest">PrintedDressPageValidateTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.ShippingPageTest" class="method navigator-link" hash-for-method="ProceedToCheckoutTest">ProceedToCheckoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.PaymentPageTest" class="method navigator-link" hash-for-method="ProceedToCheckoutTest">ProceedToCheckoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.AddressPageTest" class="method navigator-link" hash-for-method="ProceedToCheckoutTest">ProceedToCheckoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.ShoppingCartSummaryPageTest" class="method navigator-link" hash-for-method="ProceedToCheckoutTest">ProceedToCheckoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.ShippingPageTest" class="method navigator-link" hash-for-method="ShippingPageTitleTest">ShippingPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.ShippingPageTest" class="method navigator-link" hash-for-method="ShippingPageValidateTest">ShippingPageValidateTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.ShoppingCartSummaryPageTest" class="method navigator-link" hash-for-method="TwoProductsTest">TwoProductsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.WomenDressPageTest" class="method navigator-link" hash-for-method="WomenDressPageTitleTest">WomenDressPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.WomenDressPageTest" class="method navigator-link" hash-for-method="WomenDressPageValidateTest">WomenDressPageValidateTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.WomenDressPageTest" class="method navigator-link" hash-for-method="addOneItemAndViewOneItemTest">addOneItemAndViewOneItemTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.LandingPageTest" class="method navigator-link" hash-for-method="directToLoginPageTest">directToLoginPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="directToWomenDressPageTest">directToWomenDressPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.LandingPageTest" class="method navigator-link" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginPagelogoTest">loginPagelogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="com.mystore.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.mystore.qa.testcases.OrderHistoryPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DownLoadInvoiceTest">
+                  </a> <!-- DownLoadInvoiceTest -->
+                  <span class="method-name">DownLoadInvoiceTest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=95.0.4638.69)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-BD6HH3L&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:18498}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 584801e0c5b2a30e07790f8d11a1ce19
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at com.mystore.qa.pages.OrderHistoryPage.clickOnFirstOrder(OrderHistoryPage.java:47)
+	at com.mystore.qa.testcases.OrderHistoryPageTest.DownLoadInvoiceTest(OrderHistoryPageTest.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 47 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mystore.qa.testcases.OrderSummaryPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckOrderSummaryPageValidateTest">
+                  </a> <!-- CheckOrderSummaryPageValidateTest -->
+                  <span class="method-name">CheckOrderSummaryPageValidateTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrderProceedToCheckoutTest">
+                  </a> <!-- OrderProceedToCheckoutTest -->
+                  <span class="method-name">OrderProceedToCheckoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrderSummaryPageTitleTest">
+                  </a> <!-- OrderSummaryPageTitleTest -->
+                  <span class="method-name">OrderSummaryPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrderSummaryPageValidateTest">
+                  </a> <!-- OrderSummaryPageValidateTest -->
+                  <span class="method-name">OrderSummaryPageValidateTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mystore.qa.testcases.LandingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="directToLoginPageTest">
+                  </a> <!-- directToLoginPageTest -->
+                  <span class="method-name">directToLoginPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mystore.qa.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageTitleTest">
+                  </a> <!-- HomePageTitleTest -->
+                  <span class="method-name">HomePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageUserNameTest">
+                  </a> <!-- HomePageUserNameTest -->
+                  <span class="method-name">HomePageUserNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="directToWomenDressPageTest">
+                  </a> <!-- directToWomenDressPageTest -->
+                  <span class="method-name">directToWomenDressPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mystore.qa.testcases.ShippingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProceedToCheckoutTest">
+                  </a> <!-- ProceedToCheckoutTest -->
+                  <span class="method-name">ProceedToCheckoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShippingPageTitleTest">
+                  </a> <!-- ShippingPageTitleTest -->
+                  <span class="method-name">ShippingPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShippingPageValidateTest">
+                  </a> <!-- ShippingPageValidateTest -->
+                  <span class="method-name">ShippingPageValidateTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mystore.qa.testcases.WomenDressPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="WomenDressPageTitleTest">
+                  </a> <!-- WomenDressPageTitleTest -->
+                  <span class="method-name">WomenDressPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WomenDressPageValidateTest">
+                  </a> <!-- WomenDressPageValidateTest -->
+                  <span class="method-name">WomenDressPageValidateTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addOneItemAndViewOneItemTest">
+                  </a> <!-- addOneItemAndViewOneItemTest -->
+                  <span class="method-name">addOneItemAndViewOneItemTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mystore.qa.testcases.OrderHistoryPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckTheDateOfOrderTest">
+                  </a> <!-- CheckTheDateOfOrderTest -->
+                  <span class="method-name">CheckTheDateOfOrderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrderHistoryPageTitleTest">
+                  </a> <!-- OrderHistoryPageTitleTest -->
+                  <span class="method-name">OrderHistoryPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrderHistoryPageValidateTest">
+                  </a> <!-- OrderHistoryPageValidateTest -->
+                  <span class="method-name">OrderHistoryPageValidateTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mystore.qa.testcases.ShoppingCartSummaryPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExactTwoProductsTest">
+                  </a> <!-- ExactTwoProductsTest -->
+                  <span class="method-name">ExactTwoProductsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PrinteDressPageTitleTest">
+                  </a> <!-- PrinteDressPageTitleTest -->
+                  <span class="method-name">PrinteDressPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PrintedDressPageValidateTest">
+                  </a> <!-- PrintedDressPageValidateTest -->
+                  <span class="method-name">PrintedDressPageValidateTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProceedToCheckoutTest">
+                  </a> <!-- ProceedToCheckoutTest -->
+                  <span class="method-name">ProceedToCheckoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TwoProductsTest">
+                  </a> <!-- TwoProductsTest -->
+                  <span class="method-name">TwoProductsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mystore.qa.testcases.PrintedDressPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddItemAndProceedToCheckoutTest">
+                  </a> <!-- AddItemAndProceedToCheckoutTest -->
+                  <span class="method-name">AddItemAndProceedToCheckoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PrinteDressPageTitleTest">
+                  </a> <!-- PrinteDressPageTitleTest -->
+                  <span class="method-name">PrinteDressPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PrintedDressPageValidateTest">
+                  </a> <!-- PrintedDressPageValidateTest -->
+                  <span class="method-name">PrintedDressPageValidateTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mystore.qa.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPagelogoTest">
+                  </a> <!-- loginPagelogoTest -->
+                  <span class="method-name">loginPagelogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mystore.qa.testcases.AddressPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddressPageTitleTest">
+                  </a> <!-- AddressPageTitleTest -->
+                  <span class="method-name">AddressPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddressPageValidateTest">
+                  </a> <!-- AddressPageValidateTest -->
+                  <span class="method-name">AddressPageValidateTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProceedToCheckoutTest">
+                  </a> <!-- ProceedToCheckoutTest -->
+                  <span class="method-name">ProceedToCheckoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mystore.qa.testcases.PaymentPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PaymentPageTitleTest">
+                  </a> <!-- PaymentPageTitleTest -->
+                  <span class="method-name">PaymentPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PaymentPageValidateTest">
+                  </a> <!-- PaymentPageValidateTest -->
+                  <span class="method-name">PaymentPageValidateTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProceedToCheckoutTest">
+                  </a> <!-- ProceedToCheckoutTest -->
+                  <span class="method-name">ProceedToCheckoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mystore.qa.testcases.ConfirmationPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BackToOrderHistoryTest">
+                  </a> <!-- BackToOrderHistoryTest -->
+                  <span class="method-name">BackToOrderHistoryTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ConfirmationPageTitleTest">
+                  </a> <!-- ConfirmationPageTitleTest -->
+                  <span class="method-name">ConfirmationPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ConfirmationPageValidateTest">
+                  </a> <!-- ConfirmationPageValidateTest -->
+                  <span class="method-name">ConfirmationPageValidateTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Command line suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Command line test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.mystore.qa.testcases.AddressPageTest&quot;/&gt;
+      &lt;class name=&quot;com.mystore.qa.testcases.ConfirmationPageTest&quot;/&gt;
+      &lt;class name=&quot;com.mystore.qa.testcases.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.mystore.qa.testcases.LandingPageTest&quot;/&gt;
+      &lt;class name=&quot;com.mystore.qa.testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.mystore.qa.testcases.OrderHistoryPageTest&quot;/&gt;
+      &lt;class name=&quot;com.mystore.qa.testcases.OrderSummaryPageTest&quot;/&gt;
+      &lt;class name=&quot;com.mystore.qa.testcases.PaymentPageTest&quot;/&gt;
+      &lt;class name=&quot;com.mystore.qa.testcases.PrintedDressPageTest&quot;/&gt;
+      &lt;class name=&quot;com.mystore.qa.testcases.ShippingPageTest&quot;/&gt;
+      &lt;class name=&quot;com.mystore.qa.testcases.ShoppingCartSummaryPageTest&quot;/&gt;
+      &lt;class name=&quot;com.mystore.qa.testcases.WomenDressPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (12 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(39);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'DownLoadInvoiceTest')
+data.setCell(0, 2, 'com.mystore.qa.testcases.OrderHistoryPageTest')
+data.setCell(0, 3, 10199);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addOneItemAndViewOneItemTest')
+data.setCell(1, 2, 'com.mystore.qa.testcases.WomenDressPageTest')
+data.setCell(1, 3, 4053);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'AddItemAndProceedToCheckoutTest')
+data.setCell(2, 2, 'com.mystore.qa.testcases.PrintedDressPageTest')
+data.setCell(2, 3, 3308);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'OrderProceedToCheckoutTest')
+data.setCell(3, 2, 'com.mystore.qa.testcases.OrderSummaryPageTest')
+data.setCell(3, 3, 2757);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'directToWomenDressPageTest')
+data.setCell(4, 2, 'com.mystore.qa.testcases.HomePageTest')
+data.setCell(4, 3, 2754);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'BackToOrderHistoryTest')
+data.setCell(5, 2, 'com.mystore.qa.testcases.ConfirmationPageTest')
+data.setCell(5, 3, 2549);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginTest')
+data.setCell(6, 2, 'com.mystore.qa.testcases.LoginPageTest')
+data.setCell(6, 3, 2278);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ProceedToCheckoutTest')
+data.setCell(7, 2, 'com.mystore.qa.testcases.ShoppingCartSummaryPageTest')
+data.setCell(7, 3, 2265);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'directToLoginPageTest')
+data.setCell(8, 2, 'com.mystore.qa.testcases.LandingPageTest')
+data.setCell(8, 3, 1943);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ProceedToCheckoutTest')
+data.setCell(9, 2, 'com.mystore.qa.testcases.PaymentPageTest')
+data.setCell(9, 3, 1734);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ProceedToCheckoutTest')
+data.setCell(10, 2, 'com.mystore.qa.testcases.ShippingPageTest')
+data.setCell(10, 3, 1653);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ProceedToCheckoutTest')
+data.setCell(11, 2, 'com.mystore.qa.testcases.AddressPageTest')
+data.setCell(11, 3, 1562);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ExactTwoProductsTest')
+data.setCell(12, 2, 'com.mystore.qa.testcases.ShoppingCartSummaryPageTest')
+data.setCell(12, 3, 63);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'ConfirmationPageValidateTest')
+data.setCell(13, 2, 'com.mystore.qa.testcases.ConfirmationPageTest')
+data.setCell(13, 3, 60);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'PaymentPageValidateTest')
+data.setCell(14, 2, 'com.mystore.qa.testcases.PaymentPageTest')
+data.setCell(14, 3, 55);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TwoProductsTest')
+data.setCell(15, 2, 'com.mystore.qa.testcases.ShoppingCartSummaryPageTest')
+data.setCell(15, 3, 54);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'WomenDressPageValidateTest')
+data.setCell(16, 2, 'com.mystore.qa.testcases.WomenDressPageTest')
+data.setCell(16, 3, 52);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'AddressPageValidateTest')
+data.setCell(17, 2, 'com.mystore.qa.testcases.AddressPageTest')
+data.setCell(17, 3, 51);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'loginPagelogoTest')
+data.setCell(18, 2, 'com.mystore.qa.testcases.LoginPageTest')
+data.setCell(18, 3, 50);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'PrintedDressPageValidateTest')
+data.setCell(19, 2, 'com.mystore.qa.testcases.ShoppingCartSummaryPageTest')
+data.setCell(19, 3, 43);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'PrintedDressPageValidateTest')
+data.setCell(20, 2, 'com.mystore.qa.testcases.PrintedDressPageTest')
+data.setCell(20, 3, 39);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'OrderSummaryPageValidateTest')
+data.setCell(21, 2, 'com.mystore.qa.testcases.OrderSummaryPageTest')
+data.setCell(21, 3, 38);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'ShippingPageValidateTest')
+data.setCell(22, 2, 'com.mystore.qa.testcases.ShippingPageTest')
+data.setCell(22, 3, 34);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'CheckOrderSummaryPageValidateTest')
+data.setCell(23, 2, 'com.mystore.qa.testcases.OrderSummaryPageTest')
+data.setCell(23, 3, 34);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'HomePageUserNameTest')
+data.setCell(24, 2, 'com.mystore.qa.testcases.HomePageTest')
+data.setCell(24, 3, 33);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'OrderHistoryPageValidateTest')
+data.setCell(25, 2, 'com.mystore.qa.testcases.OrderHistoryPageTest')
+data.setCell(25, 3, 31);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'CheckTheDateOfOrderTest')
+data.setCell(26, 2, 'com.mystore.qa.testcases.OrderHistoryPageTest')
+data.setCell(26, 3, 26);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'OrderSummaryPageTitleTest')
+data.setCell(27, 2, 'com.mystore.qa.testcases.OrderSummaryPageTest')
+data.setCell(27, 3, 15);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'AddressPageTitleTest')
+data.setCell(28, 2, 'com.mystore.qa.testcases.AddressPageTest')
+data.setCell(28, 3, 9);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'loginPageTitleTest')
+data.setCell(29, 2, 'com.mystore.qa.testcases.LoginPageTest')
+data.setCell(29, 3, 9);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'ShippingPageTitleTest')
+data.setCell(30, 2, 'com.mystore.qa.testcases.ShippingPageTest')
+data.setCell(30, 3, 7);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'loginPageTitleTest')
+data.setCell(31, 2, 'com.mystore.qa.testcases.LandingPageTest')
+data.setCell(31, 3, 7);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'PaymentPageTitleTest')
+data.setCell(32, 2, 'com.mystore.qa.testcases.PaymentPageTest')
+data.setCell(32, 3, 6);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'HomePageTitleTest')
+data.setCell(33, 2, 'com.mystore.qa.testcases.HomePageTest')
+data.setCell(33, 3, 6);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'OrderHistoryPageTitleTest')
+data.setCell(34, 2, 'com.mystore.qa.testcases.OrderHistoryPageTest')
+data.setCell(34, 3, 5);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'ConfirmationPageTitleTest')
+data.setCell(35, 2, 'com.mystore.qa.testcases.ConfirmationPageTest')
+data.setCell(35, 3, 4);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'PrinteDressPageTitleTest')
+data.setCell(36, 2, 'com.mystore.qa.testcases.PrintedDressPageTest')
+data.setCell(36, 3, 4);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'PrinteDressPageTitleTest')
+data.setCell(37, 2, 'com.mystore.qa.testcases.ShoppingCartSummaryPageTest')
+data.setCell(37, 3, 3);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'WomenDressPageTitleTest')
+data.setCell(38, 2, 'com.mystore.qa.testcases.WomenDressPageTest')
+data.setCell(38, 3, 2);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mystore.qa.testcases.AddressPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddressPageTitleTest</span>
+                <span class="method-start">31700 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31710 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">32328 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddressPageValidateTest</span>
+                <span class="method-start">59334 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">59385 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">60011 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ProceedToCheckoutTest</span>
+                <span class="method-start">82867 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">84430 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mystore.qa.testcases.ConfirmationPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">85040 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ConfirmationPageTitleTest</span>
+                <span class="method-start">116274 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">116278 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">116888 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ConfirmationPageValidateTest</span>
+                <span class="method-start">148454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">148514 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">149150 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">BackToOrderHistoryTest</span>
+                <span class="method-start">181883 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">184432 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mystore.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">185054 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HomePageTitleTest</span>
+                <span class="method-start">198238 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">198244 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">198869 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HomePageUserNameTest</span>
+                <span class="method-start">211324 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">211359 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">211968 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">directToWomenDressPageTest</span>
+                <span class="method-start">223427 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">226181 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mystore.qa.testcases.LandingPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">226778 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">234045 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">234052 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">234634 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">directToLoginPageTest</span>
+                <span class="method-start">241726 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">243669 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mystore.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">244277 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">255079 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">255088 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">255665 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPagelogoTest</span>
+                <span class="method-start">265413 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">265464 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">266060 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">276083 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">278362 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mystore.qa.testcases.OrderHistoryPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">278954 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OrderHistoryPageTitleTest</span>
+                <span class="method-start">314047 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">314052 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">314676 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OrderHistoryPageValidateTest</span>
+                <span class="method-start">357115 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">357146 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">357746 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CheckTheDateOfOrderTest</span>
+                <span class="method-start">393575 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">393601 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">394216 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">DownLoadInvoiceTest</span>
+                <span class="method-start">427857 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">438058 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mystore.qa.testcases.OrderSummaryPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">438676 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OrderSummaryPageTitleTest</span>
+                <span class="method-start">468908 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">468923 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">469532 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OrderSummaryPageValidateTest</span>
+                <span class="method-start">497354 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">497393 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">498012 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CheckOrderSummaryPageValidateTest</span>
+                <span class="method-start">529254 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">529288 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">529960 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OrderProceedToCheckoutTest</span>
+                <span class="method-start">566029 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">568786 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mystore.qa.testcases.PaymentPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">569386 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PaymentPageTitleTest</span>
+                <span class="method-start">598750 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">598756 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">599377 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PaymentPageValidateTest</span>
+                <span class="method-start">628810 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">628865 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">629476 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ProceedToCheckoutTest</span>
+                <span class="method-start">659393 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">661127 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mystore.qa.testcases.PrintedDressPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">661749 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PrinteDressPageTitleTest</span>
+                <span class="method-start">681726 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">681730 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">682346 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PrintedDressPageValidateTest</span>
+                <span class="method-start">703068 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">703107 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">703688 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddItemAndProceedToCheckoutTest</span>
+                <span class="method-start">721731 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">725039 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mystore.qa.testcases.ShippingPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">725664 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShippingPageTitleTest</span>
+                <span class="method-start">751947 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">751954 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">752573 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShippingPageValidateTest</span>
+                <span class="method-start">774759 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">774793 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">775415 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ProceedToCheckoutTest</span>
+                <span class="method-start">800655 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">802308 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mystore.qa.testcases.ShoppingCartSummaryPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">802911 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PrinteDressPageTitleTest</span>
+                <span class="method-start">824347 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">824350 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">824963 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PrintedDressPageValidateTest</span>
+                <span class="method-start">847356 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">847399 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">847978 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TwoProductsTest</span>
+                <span class="method-start">871505 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">871559 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">872159 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ExactTwoProductsTest</span>
+                <span class="method-start">900444 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">900507 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">901139 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ProceedToCheckoutTest</span>
+                <span class="method-start">923033 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">925298 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mystore.qa.testcases.WomenDressPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">925904 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">WomenDressPageTitleTest</span>
+                <span class="method-start">939737 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">939739 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">940337 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">WomenDressPageValidateTest</span>
+                <span class="method-start">954254 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">954306 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">954917 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addOneItemAndViewOneItemTest</span>
+                <span class="method-start">968532 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">972585 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My Store Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.mystore.qa.extentreportlistener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="My Store Test Cases(failed)">
+    <classes>
+      <class name="com.mystore.qa.testcases.PaymentPageTest">
+        <methods>
+          <include name="PaymentPageTitleTest"/>
+          <include name="PaymentPageValidateTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="ProceedToCheckoutTest"/>
+        </methods>
+      </class> <!-- com.mystore.qa.testcases.PaymentPageTest -->
+      <class name="com.mystore.qa.testcases.OrderHistoryPageTest">
+        <methods>
+          <include name="CheckTheDateOfOrderTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="DownLoadInvoiceTest"/>
+          <include name="OrderHistoryPageValidateTest"/>
+        </methods>
+      </class> <!-- com.mystore.qa.testcases.OrderHistoryPageTest -->
+      <class name="com.mystore.qa.testcases.AddressPageTest">
+        <methods>
+          <include name="AddressPageValidateTest"/>
+          <include name="ProceedToCheckoutTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mystore.qa.testcases.AddressPageTest -->
+    </classes>
+  </test> <!-- My Store Test Cases(failed) -->
+</suite> <!-- Failed suite [My Store Test Automation Test Suite] -->

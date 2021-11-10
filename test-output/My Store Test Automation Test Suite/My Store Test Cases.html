@@ -1,0 +1,274 @@
+<html>
+<head>
+<title>TestNG:  My Store Test Cases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>My Store Test Cases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>39/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 10 14:14:05 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>989 seconds (989627 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mystore.qa.testcases.HomePageTest.directToWomenDressPageTest()'><b>directToWomenDressPageTest</b><br>Test class: com.mystore.qa.testcases.HomePageTest</td>
+<td></td>
+<td>2</td>
+<td>com.mystore.qa.testcases.HomePageTest@239a307b</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.AddressPageTest.AddressPageTitleTest()'><b>AddressPageTitleTest</b><br>Test class: com.mystore.qa.testcases.AddressPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.AddressPageTest@5f8e8a9d</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.OrderSummaryPageTest.OrderSummaryPageTitleTest()'><b>OrderSummaryPageTitleTest</b><br>Test class: com.mystore.qa.testcases.OrderSummaryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.OrderSummaryPageTest@3cce5371</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.ShippingPageTest.ProceedToCheckoutTest()'><b>ProceedToCheckoutTest</b><br>Test class: com.mystore.qa.testcases.ShippingPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.mystore.qa.testcases.ShippingPageTest@5745ca0e</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.LoginPageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: com.mystore.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.LoginPageTest@740fb309</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.ShippingPageTest.ShippingPageValidateTest()'><b>ShippingPageValidateTest</b><br>Test class: com.mystore.qa.testcases.ShippingPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.ShippingPageTest@5745ca0e</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.OrderSummaryPageTest.OrderSummaryPageValidateTest()'><b>OrderSummaryPageValidateTest</b><br>Test class: com.mystore.qa.testcases.OrderSummaryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.OrderSummaryPageTest@3cce5371</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.WomenDressPageTest.WomenDressPageTitleTest()'><b>WomenDressPageTitleTest</b><br>Test class: com.mystore.qa.testcases.WomenDressPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.WomenDressPageTest@2a8448fa</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.OrderHistoryPageTest.DownLoadInvoiceTest()'><b>DownLoadInvoiceTest</b><br>Test class: com.mystore.qa.testcases.OrderHistoryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.OrderHistoryPageTest@6e535154</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.OrderHistoryPageTest.OrderHistoryPageTitleTest()'><b>OrderHistoryPageTitleTest</b><br>Test class: com.mystore.qa.testcases.OrderHistoryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.OrderHistoryPageTest@6e535154</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.ConfirmationPageTest.BackToOrderHistoryTest()'><b>BackToOrderHistoryTest</b><br>Test class: com.mystore.qa.testcases.ConfirmationPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.mystore.qa.testcases.ConfirmationPageTest@17bffc17</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.OrderSummaryPageTest.OrderProceedToCheckoutTest()'><b>OrderProceedToCheckoutTest</b><br>Test class: com.mystore.qa.testcases.OrderSummaryPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.mystore.qa.testcases.OrderSummaryPageTest@3cce5371</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.OrderHistoryPageTest.OrderHistoryPageValidateTest()'><b>OrderHistoryPageValidateTest</b><br>Test class: com.mystore.qa.testcases.OrderHistoryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.OrderHistoryPageTest@6e535154</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.HomePageTest.HomePageTitleTest()'><b>HomePageTitleTest</b><br>Test class: com.mystore.qa.testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.HomePageTest@239a307b</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.ShoppingCartSummaryPageTest.ProceedToCheckoutTest()'><b>ProceedToCheckoutTest</b><br>Test class: com.mystore.qa.testcases.ShoppingCartSummaryPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.mystore.qa.testcases.ShoppingCartSummaryPageTest@2de56eb2</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.WomenDressPageTest.addOneItemAndViewOneItemTest()'><b>addOneItemAndViewOneItemTest</b><br>Test class: com.mystore.qa.testcases.WomenDressPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.mystore.qa.testcases.WomenDressPageTest@2a8448fa</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.PaymentPageTest.PaymentPageValidateTest()'><b>PaymentPageValidateTest</b><br>Test class: com.mystore.qa.testcases.PaymentPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.PaymentPageTest@3ad83a66</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.PaymentPageTest.ProceedToCheckoutTest()'><b>ProceedToCheckoutTest</b><br>Test class: com.mystore.qa.testcases.PaymentPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.mystore.qa.testcases.PaymentPageTest@3ad83a66</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.OrderHistoryPageTest.CheckTheDateOfOrderTest()'><b>CheckTheDateOfOrderTest</b><br>Test class: com.mystore.qa.testcases.OrderHistoryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.OrderHistoryPageTest@6e535154</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.LandingPageTest.directToLoginPageTest()'><b>directToLoginPageTest</b><br>Test class: com.mystore.qa.testcases.LandingPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.mystore.qa.testcases.LandingPageTest@7d9d0818</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.PrintedDressPageTest.PrintedDressPageValidateTest()'><b>PrintedDressPageValidateTest</b><br>Test class: com.mystore.qa.testcases.PrintedDressPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.PrintedDressPageTest@6f204a1a</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.HomePageTest.HomePageUserNameTest()'><b>HomePageUserNameTest</b><br>Test class: com.mystore.qa.testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.HomePageTest@239a307b</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.ShoppingCartSummaryPageTest.PrinteDressPageTitleTest()'><b>PrinteDressPageTitleTest</b><br>Test class: com.mystore.qa.testcases.ShoppingCartSummaryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.ShoppingCartSummaryPageTest@2de56eb2</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.PrintedDressPageTest.PrinteDressPageTitleTest()'><b>PrinteDressPageTitleTest</b><br>Test class: com.mystore.qa.testcases.PrintedDressPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.PrintedDressPageTest@6f204a1a</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.PaymentPageTest.PaymentPageTitleTest()'><b>PaymentPageTitleTest</b><br>Test class: com.mystore.qa.testcases.PaymentPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.PaymentPageTest@3ad83a66</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.ConfirmationPageTest.ConfirmationPageTitleTest()'><b>ConfirmationPageTitleTest</b><br>Test class: com.mystore.qa.testcases.ConfirmationPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.ConfirmationPageTest@17bffc17</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.ShoppingCartSummaryPageTest.TwoProductsTest()'><b>TwoProductsTest</b><br>Test class: com.mystore.qa.testcases.ShoppingCartSummaryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.ShoppingCartSummaryPageTest@2de56eb2</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.PrintedDressPageTest.AddItemAndProceedToCheckoutTest()'><b>AddItemAndProceedToCheckoutTest</b><br>Test class: com.mystore.qa.testcases.PrintedDressPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.mystore.qa.testcases.PrintedDressPageTest@6f204a1a</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.WomenDressPageTest.WomenDressPageValidateTest()'><b>WomenDressPageValidateTest</b><br>Test class: com.mystore.qa.testcases.WomenDressPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.WomenDressPageTest@2a8448fa</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.AddressPageTest.AddressPageValidateTest()'><b>AddressPageValidateTest</b><br>Test class: com.mystore.qa.testcases.AddressPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.AddressPageTest@5f8e8a9d</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.AddressPageTest.ProceedToCheckoutTest()'><b>ProceedToCheckoutTest</b><br>Test class: com.mystore.qa.testcases.AddressPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.mystore.qa.testcases.AddressPageTest@5f8e8a9d</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.ShoppingCartSummaryPageTest.ExactTwoProductsTest()'><b>ExactTwoProductsTest</b><br>Test class: com.mystore.qa.testcases.ShoppingCartSummaryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.ShoppingCartSummaryPageTest@2de56eb2</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.LandingPageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: com.mystore.qa.testcases.LandingPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.LandingPageTest@7d9d0818</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.OrderSummaryPageTest.CheckOrderSummaryPageValidateTest()'><b>CheckOrderSummaryPageValidateTest</b><br>Test class: com.mystore.qa.testcases.OrderSummaryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.OrderSummaryPageTest@3cce5371</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.ConfirmationPageTest.ConfirmationPageValidateTest()'><b>ConfirmationPageValidateTest</b><br>Test class: com.mystore.qa.testcases.ConfirmationPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.ConfirmationPageTest@17bffc17</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mystore.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.mystore.qa.testcases.LoginPageTest@740fb309</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.ShippingPageTest.ShippingPageTitleTest()'><b>ShippingPageTitleTest</b><br>Test class: com.mystore.qa.testcases.ShippingPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.ShippingPageTest@5745ca0e</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.LoginPageTest.loginPagelogoTest()'><b>loginPagelogoTest</b><br>Test class: com.mystore.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.LoginPageTest@740fb309</td></tr>
+<tr>
+<td title='com.mystore.qa.testcases.ShoppingCartSummaryPageTest.PrintedDressPageValidateTest()'><b>PrintedDressPageValidateTest</b><br>Test class: com.mystore.qa.testcases.ShoppingCartSummaryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.qa.testcases.ShoppingCartSummaryPageTest@2de56eb2</td></tr>
+</table><p>
+</body>
+</html>

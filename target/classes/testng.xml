@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Store Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.mystore.qa.extentreportlistener.ExtentReportListener" />
+	</listeners>
+
+	<test name="My Store Test Cases">
+		<classes>
+			<class name="com.mystore.qa.testcases.LandingPageTest"></class>
+			<class name="com.mystore.qa.testcases.LoginPageTest"></class>
+			<class name="com.mystore.qa.testcases.HomePageTest"></class>
+			<class name="com.mystore.qa.testcases.WomenDressPageTest"></class>
+			<class name="com.mystore.qa.testcases.PrintedDressPageTest"></class>
+			<class name="com.mystore.qa.testcases.ShoppingCartSummaryPageTest"></class>
+			<class name="com.mystore.qa.testcases.AddressPageTest"></class>
+			<class name="com.mystore.qa.testcases.ShippingPageTest"></class>
+			<class name="com.mystore.qa.testcases.PaymentPageTest"></class>
+			<class name="com.mystore.qa.testcases.OrderSummaryPageTest"></class>
+			<class name="com.mystore.qa.testcases.ConfirmationPageTest"></class>
+			<class name="com.mystore.qa.testcases.OrderHistoryPageTest"></class>
+
+		</classes>
+	</test>
+</suite>

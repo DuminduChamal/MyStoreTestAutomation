@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="39" failures="1" name="TestSuite" time="37.8" errors="0" skipped="0">
+  <properties>
+    <property name="JOB_NAME" value="MyStoreTestJob"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/MyStoreTestJob/9/display/redirect?page=tests"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\ASUS\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="5162b54f1dbbba06"/>
+    <property name="POM_ARTIFACTID" value="MyStoreTest"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="POM_DISPLAYNAME" value="MyStoreTest"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="TEMP" value="C:\WINDOWS\TEMP"/>
+    <property name="NODE_LABELS" value="built-in"/>
+    <property name="java.runtime.version" value="11.0.11+9"/>
+    <property name="WINSW_SERVICE_ID" value="jenkins"/>
+    <property name="user.name" value="DESKTOP-BD6HH3L$"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="MyStoreTestJob"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/MyStoreTestJob/9/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#9"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.timezone" value="Asia/Colombo"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERNAME" value="DESKTOP-BD6HH3L$"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="built-in"/>
+    <property name="BUILD_ID" value="9"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="maven.conf" value="C:\Users\ASUS\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="GB"/>
+    <property name="VS140COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/MyStoreTestJob/9/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\WINDOWS\TEMP"/>
+    <property name="path.separator" value=";"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/MyStoreTestJob/9/display/redirect?page=artifacts"/>
+    <property name="java.vm.version" value="11.0.11+9"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/MyStoreTestJob/display/redirect"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="DART_SDK" value="C:\Program Files\Dart\dart-sdk"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="SERVICE_ID" value="jenkins"/>
+    <property name="COMPUTERNAME" value="DESKTOP-BD6HH3L"/>
+    <property name="user.script" value=""/>
+    <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
+    <property name="POM_GROUPID" value="MyStoreTestAutomation"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-MyStoreTestJob-9"/>
+    <property name="JENKINS_SERVER_COOKIE" value="5162b54f1dbbba06"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\ASUS\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jre1.8.0_201\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Users\ASUS\AppData\Local\Programs\Python\Python37-32;C:\Program Files\Maven\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Dart\dart-sdk\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Maven\apache-maven-3.6.3\bin;C:\Program Files\Graphviz\bin;C:\Users\ASUS\AppData\Local\Programs\Python\Python37\Lib\site-packages\nltk;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="NLTK_DATA" value="C:\Users\ASUS\AppData\Roaming\nltk_data"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\ASUS\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.class.path" value="C:\Users\ASUS\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\ASUS\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.6.0.jar;C:\Users\ASUS\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\ASUS\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\ASUS\.jenkins\war\WEB-INF\lib\remoting-4.11.1.jar C:\Users\ASUS\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\ASUS\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 17568"/>
+    <property name="Path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jre1.8.0_201\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Users\ASUS\AppData\Local\Programs\Python\Python37-32;C:\Program Files\Maven\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Dart\dart-sdk\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Maven\apache-maven-3.6.3\bin;C:\Program Files\Graphviz\bin;C:\Users\ASUS\AppData\Local\Programs\Python\Python37\Lib\site-packages\nltk;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="jansi.mode" value="strip"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="M2_HOME" value="C:\Users\ASUS\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="CI" value="true"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="HUDSON_HOME" value="C:\Users\ASUS\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\ASUS\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/MyStoreTestJob/9/"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.dir" value="D:\UCSC\4th Year\1st Semester\IS4102 Advanced Software Quality Assurance\Assignment 2\MyStoreTest"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/MyStoreTestJob/"/>
+    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="MAVEN_HOME" value="C:\Users\ASUS\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="BASE" value="C:\Users\ASUS\.jenkins"/>
+    <property name="BUILD_NUMBER" value="9"/>
+    <property name="PROCESSOR_REVISION" value="8e0a"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\ASUS\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\ASUS\.jenkins\workspace\MyStoreTestJob@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\ASUS\.jenkins\workspace\MyStoreTestJob"/>
+    <property name="ChocolateyInstall" value="C:\ProgramData\chocolatey"/>
+    <property name="maven3.interceptor.common" value="C:\Users\ASUS\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="WINSW_EXECUTABLE" value="C:\Users\ASUS\.jenkins\jenkins.exe"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK-11.0.11+9"/>
+  </properties>
+  <testcase classname="com.mystore.qa.testcases.AddressPageTest" name="AddressPageTitleTest" time="0.011"/>
+  <testcase classname="com.mystore.qa.testcases.AddressPageTest" name="AddressPageValidateTest" time="0.051"/>
+  <testcase classname="com.mystore.qa.testcases.AddressPageTest" name="ProceedToCheckoutTest" time="1.562"/>
+  <testcase classname="com.mystore.qa.testcases.ConfirmationPageTest" name="ConfirmationPageTitleTest" time="0.004"/>
+  <testcase classname="com.mystore.qa.testcases.ConfirmationPageTest" name="ConfirmationPageValidateTest" time="0.06"/>
+  <testcase classname="com.mystore.qa.testcases.ConfirmationPageTest" name="BackToOrderHistoryTest" time="2.549"/>
+  <testcase classname="com.mystore.qa.testcases.HomePageTest" name="HomePageTitleTest" time="0.006"/>
+  <testcase classname="com.mystore.qa.testcases.HomePageTest" name="HomePageUserNameTest" time="0.035"/>
+  <testcase classname="com.mystore.qa.testcases.HomePageTest" name="directToWomenDressPageTest" time="2.753"/>
+  <testcase classname="com.mystore.qa.testcases.LandingPageTest" name="loginPageTitleTest" time="0.007"/>
+  <testcase classname="com.mystore.qa.testcases.LandingPageTest" name="directToLoginPageTest" time="1.943"/>
+  <testcase classname="com.mystore.qa.testcases.LoginPageTest" name="loginPageTitleTest" time="0.008"/>
+  <testcase classname="com.mystore.qa.testcases.LoginPageTest" name="loginPagelogoTest" time="0.05"/>
+  <testcase classname="com.mystore.qa.testcases.LoginPageTest" name="loginTest" time="2.279"/>
+  <testcase classname="com.mystore.qa.testcases.OrderHistoryPageTest" name="OrderHistoryPageTitleTest" time="0.004"/>
+  <testcase classname="com.mystore.qa.testcases.OrderHistoryPageTest" name="OrderHistoryPageValidateTest" time="0.031"/>
+  <testcase classname="com.mystore.qa.testcases.OrderHistoryPageTest" name="CheckTheDateOfOrderTest" time="0.026"/>
+  <testcase classname="com.mystore.qa.testcases.OrderHistoryPageTest" name="DownLoadInvoiceTest" time="10.202">
+    <failure message="element not interactable
+  (Session info: chrome=95.0.4638.69)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-BD6HH3L&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:18498}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 584801e0c5b2a30e07790f8d11a1ce19" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=95.0.4638.69)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-BD6HH3L&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:18498}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 584801e0c5b2a30e07790f8d11a1ce19
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at com.mystore.qa.pages.OrderHistoryPage.clickOnFirstOrder(OrderHistoryPage.java:47)
+	at com.mystore.qa.testcases.OrderHistoryPageTest.DownLoadInvoiceTest(OrderHistoryPageTest.java:84)
+</failure>
+    <system-out>Before navigating to: &apos;http://automationpractice.com/index.php?&apos;
+Navigated to:&apos;http://automationpractice.com/index.php?&apos;
+Trying to find Element By : By.xpath: //a[@class=&apos;login&apos;]
+Found Element By : By.xpath: //a[@class=&apos;login&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //a[@class=&apos;login&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //a[@class=&apos;login&apos;]]
+Trying to find Element By : By.xpath: //input[@id=&apos;email&apos;]
+Found Element By : By.xpath: //input[@id=&apos;email&apos;]
+Trying to find Element By : By.xpath: //input[@id=&apos;passwd&apos;]
+Found Element By : By.xpath: //input[@id=&apos;passwd&apos;]
+Trying to find Element By : By.xpath: //button[@name=&apos;SubmitLogin&apos;]
+Found Element By : By.xpath: //button[@name=&apos;SubmitLogin&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //button[@name=&apos;SubmitLogin&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //button[@name=&apos;SubmitLogin&apos;]]
+Trying to find Element By : By.xpath: //a[@title=&apos;Women&apos;]
+Found Element By : By.xpath: //a[@title=&apos;Women&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //a[@title=&apos;Women&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //a[@title=&apos;Women&apos;]]
+Trying to find Element By : By.xpath: //*[@id=&quot;center_column&quot;]/ul/li[1]/div/div[2]
+Found Element By : By.xpath: //*[@id=&quot;center_column&quot;]/ul/li[1]/div/div[2]
+Trying to find Element By : By.xpath: //*[@id=&quot;center_column&quot;]/ul/li[1]/div/div[2]/div[2]/a[1]/span
+Found Element By : By.xpath: //*[@id=&quot;center_column&quot;]/ul/li[1]/div/div[2]/div[2]/a[1]/span
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;center_column&quot;]/ul/li[1]/div/div[2]/div[2]/a[1]/span]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;center_column&quot;]/ul/li[1]/div/div[2]/div[2]/a[1]/span]
+Trying to find Element By : By.xpath: //*[@id=&quot;layer_cart&quot;]/div[1]/div[2]/div[4]/span/span
+Found Element By : By.xpath: //*[@id=&quot;layer_cart&quot;]/div[1]/div[2]/div[4]/span/span
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;layer_cart&quot;]/div[1]/div[2]/div[4]/span/span]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;layer_cart&quot;]/div[1]/div[2]/div[4]/span/span]
+Trying to find Element By : By.xpath: //*[@id=&quot;center_column&quot;]/ul/li[6]/div/div[2]
+Found Element By : By.xpath: //*[@id=&quot;center_column&quot;]/ul/li[6]/div/div[2]
+Trying to find Element By : By.xpath: //*[@id=&quot;center_column&quot;]/ul/li[6]/div/div[2]/div[2]/a[2]/span
+Found Element By : By.xpath: //*[@id=&quot;center_column&quot;]/ul/li[6]/div/div[2]/div[2]/a[2]/span
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;center_column&quot;]/ul/li[6]/div/div[2]/div[2]/a[2]/span]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;center_column&quot;]/ul/li[6]/div/div[2]/div[2]/a[2]/span]
+Trying to find Element By : By.name: group_1
+Found Element By : By.name: group_1
+Trying to find Element By : By.xpath: .//option[normalize-space(.) = &quot;L&quot;]
+Found Element By : By.xpath: .//option[normalize-space(.) = &quot;L&quot;]
+Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; name: group_1]] -&gt; xpath: .//option[normalize-space(.) = &quot;L&quot;]]
+Clicked on: [[[[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; name: group_1]] -&gt; xpath: .//option[normalize-space(.) = &quot;L&quot;]]
+Trying to find Element By : By.xpath: //*[@id=&quot;color_8&quot;]
+Found Element By : By.xpath: //*[@id=&quot;color_8&quot;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;color_8&quot;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;color_8&quot;]]
+Trying to find Element By : By.xpath: //*[@id=&quot;add_to_cart&quot;]/button/span
+Found Element By : By.xpath: //*[@id=&quot;add_to_cart&quot;]/button/span
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;add_to_cart&quot;]/button/span]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;add_to_cart&quot;]/button/span]
+Trying to find Element By : By.xpath: //*[@id=&quot;layer_cart&quot;]/div[1]/div[2]/div[4]/a/span
+Found Element By : By.xpath: //*[@id=&quot;layer_cart&quot;]/div[1]/div[2]/div[4]/a/span
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;layer_cart&quot;]/div[1]/div[2]/div[4]/a/span]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;layer_cart&quot;]/div[1]/div[2]/div[4]/a/span]
+Trying to find Element By : By.xpath: //*[@id=&quot;center_column&quot;]/p[2]/a[1]/span
+Found Element By : By.xpath: //*[@id=&quot;center_column&quot;]/p[2]/a[1]/span
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;center_column&quot;]/p[2]/a[1]/span]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;center_column&quot;]/p[2]/a[1]/span]
+Trying to find Element By : By.xpath: //*[@id=&quot;ordermsg&quot;]/textarea
+Found Element By : By.xpath: //*[@id=&quot;ordermsg&quot;]/textarea
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;ordermsg&quot;]/textarea]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;ordermsg&quot;]/textarea]
+Trying to find Element By : By.xpath: //*[@id=&quot;center_column&quot;]/form/p/button/span
+Found Element By : By.xpath: //*[@id=&quot;center_column&quot;]/form/p/button/span
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;center_column&quot;]/form/p/button/span]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;center_column&quot;]/form/p/button/span]
+Trying to find Element By : By.xpath: //*[@id=&quot;cgv&quot;]
+Found Element By : By.xpath: //*[@id=&quot;cgv&quot;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;cgv&quot;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;cgv&quot;]]
+Trying to find Element By : By.xpath: //*[@id=&quot;form&quot;]/p/button/span
+Found Element By : By.xpath: //*[@id=&quot;form&quot;]/p/button/span
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;form&quot;]/p/button/span]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;form&quot;]/p/button/span]
+Trying to find Element By : By.xpath: //*[@id=&quot;HOOK_PAYMENT&quot;]/div[2]/div/p/a
+Found Element By : By.xpath: //*[@id=&quot;HOOK_PAYMENT&quot;]/div[2]/div/p/a
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;HOOK_PAYMENT&quot;]/div[2]/div/p/a]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;HOOK_PAYMENT&quot;]/div[2]/div/p/a]
+Trying to find Element By : By.xpath: //*[@id=&quot;cart_navigation&quot;]/button/span
+Found Element By : By.xpath: //*[@id=&quot;cart_navigation&quot;]/button/span
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;cart_navigation&quot;]/button/span]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;cart_navigation&quot;]/button/span]
+Trying to find Element By : By.xpath: //*[@id=&quot;center_column&quot;]/p[2]/a
+Found Element By : By.xpath: //*[@id=&quot;center_column&quot;]/p[2]/a
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;center_column&quot;]/p[2]/a]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;center_column&quot;]/p[2]/a]
+Trying to find Element By : By.xpath: //*[@id=&quot;order-list&quot;]/tbody/tr[1]/td[6]/a
+Found Element By : By.xpath: //*[@id=&quot;order-list&quot;]/tbody/tr[1]/td[6]/a
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (584801e0c5b2a30e07790f8d11a1ce19)] -&gt; xpath: //*[@id=&quot;order-list&quot;]/tbody/tr[1]/td[6]/a]
+Exception occured: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=95.0.4638.69)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-BD6HH3L&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:18498}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 584801e0c5b2a30e07790f8d11a1ce19
+</system-out>
+    <system-err>Starting ChromeDriver 95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}) on port 13224
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 10, 2021 2:41:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.mystore.qa.testcases.OrderSummaryPageTest" name="OrderSummaryPageTitleTest" time="0.016"/>
+  <testcase classname="com.mystore.qa.testcases.OrderSummaryPageTest" name="OrderSummaryPageValidateTest" time="0.039"/>
+  <testcase classname="com.mystore.qa.testcases.OrderSummaryPageTest" name="CheckOrderSummaryPageValidateTest" time="0.034"/>
+  <testcase classname="com.mystore.qa.testcases.OrderSummaryPageTest" name="OrderProceedToCheckoutTest" time="2.757"/>
+  <testcase classname="com.mystore.qa.testcases.PaymentPageTest" name="PaymentPageTitleTest" time="0.006"/>
+  <testcase classname="com.mystore.qa.testcases.PaymentPageTest" name="PaymentPageValidateTest" time="0.055"/>
+  <testcase classname="com.mystore.qa.testcases.PaymentPageTest" name="ProceedToCheckoutTest" time="1.733"/>
+  <testcase classname="com.mystore.qa.testcases.PrintedDressPageTest" name="PrinteDressPageTitleTest" time="0.004"/>
+  <testcase classname="com.mystore.qa.testcases.PrintedDressPageTest" name="PrintedDressPageValidateTest" time="0.039"/>
+  <testcase classname="com.mystore.qa.testcases.PrintedDressPageTest" name="AddItemAndProceedToCheckoutTest" time="3.308"/>
+  <testcase classname="com.mystore.qa.testcases.ShippingPageTest" name="ShippingPageTitleTest" time="0.006"/>
+  <testcase classname="com.mystore.qa.testcases.ShippingPageTest" name="ShippingPageValidateTest" time="0.034"/>
+  <testcase classname="com.mystore.qa.testcases.ShippingPageTest" name="ProceedToCheckoutTest" time="1.653"/>
+  <testcase classname="com.mystore.qa.testcases.ShoppingCartSummaryPageTest" name="PrinteDressPageTitleTest" time="0.003"/>
+  <testcase classname="com.mystore.qa.testcases.ShoppingCartSummaryPageTest" name="PrintedDressPageValidateTest" time="0.043"/>
+  <testcase classname="com.mystore.qa.testcases.ShoppingCartSummaryPageTest" name="TwoProductsTest" time="0.054"/>
+  <testcase classname="com.mystore.qa.testcases.ShoppingCartSummaryPageTest" name="ExactTwoProductsTest" time="0.063"/>
+  <testcase classname="com.mystore.qa.testcases.ShoppingCartSummaryPageTest" name="ProceedToCheckoutTest" time="2.265"/>
+  <testcase classname="com.mystore.qa.testcases.WomenDressPageTest" name="WomenDressPageTitleTest" time="0.002"/>
+  <testcase classname="com.mystore.qa.testcases.WomenDressPageTest" name="WomenDressPageValidateTest" time="0.052"/>
+  <testcase classname="com.mystore.qa.testcases.WomenDressPageTest" name="addOneItemAndViewOneItemTest" time="4.053"/>
+</testsuite>

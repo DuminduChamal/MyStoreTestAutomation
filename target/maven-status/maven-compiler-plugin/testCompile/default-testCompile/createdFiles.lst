@@ -1,0 +1,12 @@
+com\mystore\qa\testcases\ConfirmationPageTest.class
+com\mystore\qa\testcases\WomenDressPageTest.class
+com\mystore\qa\testcases\AddressPageTest.class
+com\mystore\qa\testcases\HomePageTest.class
+com\mystore\qa\testcases\ShippingPageTest.class
+com\mystore\qa\testcases\OrderHistoryPageTest.class
+com\mystore\qa\testcases\PaymentPageTest.class
+com\mystore\qa\testcases\ShoppingCartSummaryPageTest.class
+com\mystore\qa\testcases\LandingPageTest.class
+com\mystore\qa\testcases\LoginPageTest.class
+com\mystore\qa\testcases\OrderSummaryPageTest.class
+com\mystore\qa\testcases\PrintedDressPageTest.class

@@ -1,0 +1,6 @@
+2021-11-10 14:39:08,766  INFO [main] LandingPageTest:32 - Validating Landing Page!
+2021-11-10 14:39:08,769  INFO [main] LandingPageTest:33 - Landing Page Title - My Store
+2021-11-10 14:39:08,770  INFO [main] LandingPageTest:35 - This is a info log
+2021-11-10 14:39:08,770  WARN [main] LandingPageTest:36 - This is a warn log
+2021-11-10 14:39:08,770 FATAL [main] LandingPageTest:37 - This is a fata log
+2021-11-10 14:39:08,770 DEBUG [main] LandingPageTest:38 - This is a debug log
